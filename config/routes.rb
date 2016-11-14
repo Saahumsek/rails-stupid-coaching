@@ -54,7 +54,8 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-
+  get '/answer' => 'coaching#answer'
+  get '/ask' => 'coaching#ask'
 
 
 end
